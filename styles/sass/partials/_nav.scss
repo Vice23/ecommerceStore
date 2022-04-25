@@ -1,0 +1,52 @@
+/* _nav.scss */
+
+.navBar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid rgba($color: $primary, $alpha: 0.08);
+    background-color: $solidWhite;
+
+    //using flexbox to space items within wrapper
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+
+    //still in navBar, add the new styling
+    .searchCart {
+        display: flex;
+    
+        .searchIcon,
+        .bag {
+            margin-right: 15px;
+        }
+    }
+    
+    a {
+        display: flex;
+    }
+    
+    .logo {
+        margin-left: 60px;
+    }
+
+    //counter needs to be styled to sit beside the bag and the search function
+    .counter {
+        display: flex;
+        align-items: center;
+    
+        p {
+            width: 24px;
+            height: 24px;
+            background-color: $primary;
+            color: $solidWhite;
+            text-align: center;
+            border-radius: 50%;
+        }
+    }
+}
+
+/* _nav.scss */
+
