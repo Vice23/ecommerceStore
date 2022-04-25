@@ -1,0 +1,46 @@
+/* _footer.scss */
+
+footer {
+    background-color: $primary;
+    color: $solidWhite;
+    padding: 90px 0 50px 0;
+
+    .footerFlexContainer {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 90px;
+
+        h4 {
+            color: $solidWhite;
+        }
+    }
+
+    //add individual nav footer styles
+    .footerNav {
+        width: 40%;
+    
+        nav {
+            display: flex;
+            justify-content: space-between;
+    
+            ul {
+                width: 33%;
+            }
+            
+            //this changes the 'a' links a bit from the general rules so they're specific to the footer -- it will be used because of specificity rules. You could have potentially put this in a Partial for the general stylings, but this project chooses to have these more specific styles in the footer partial
+            a {
+                color: rgba($color: $solidWhite, $alpha: 0.5);
+                font-size: 0.8rem;
+                line-height: 1.5rem;
+    
+                &:hover {
+                    color: rgba($color: $solidWhite, $alpha: 1);
+                }
+    
+                &:focus {
+                    color: rgba($color: $solidWhite, $alpha: 1);
+                }
+            }
+        }
+    }
+}
