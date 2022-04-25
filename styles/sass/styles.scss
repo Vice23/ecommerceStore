@@ -1,10 +1,11 @@
-@import "./partials/_variables.scss";
-@import "./partials/_setup.scss";
-@import "./partials/_typography.scss";
-@import "./partials/_base.scss";
+@import "./partials/variables.scss";
+@import "./partials/setup.scss";
+@import "./partials/typography.scss";
+@import "./partials/base.scss";
 
-@import "./partials/_nav.scss";
+@import "./partials/nav.scss";
 @import "./partials/header";
+@import "./partials/categories.scss";
 @import "./partials/footer";
 
 
