@@ -1,0 +1,9 @@
+# list all of the files and folders which you do not wish to push up into GitHub
+
+.vscode
+
+.DS_Store
+
+designs
+# folders CAN include a forward slash but don't need to
+# you can use an asterisk followed by a file type to ignore all files with that type
